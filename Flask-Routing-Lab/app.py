@@ -17,6 +17,10 @@ def openHomePage():
 def openProductPage():
     return render_template("product.html")
 
+@app.route('/cart')
+def openCartPage():
+    return render_template("cart.html")
+
 # Your code should be above
 
 if __name__ == "__main__":  # Makes sure this is the main process
